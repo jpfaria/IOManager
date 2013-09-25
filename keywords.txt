@@ -1,6 +1,3 @@
-ButtonState	KEYWORD1
-observer	KEYWORD2
-call	KEYWORD2
-digitalSwitch	KEYWORD2
-analogWrite	KEYWORD2
-holdDelay	KEYWORD2
+IOManager	KEYWORD1
+addInputs	KEYWORD2
+addOutputs	KEYWORD2

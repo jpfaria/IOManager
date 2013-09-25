@@ -3,13 +3,11 @@
 
 #include "Arduino.h"
 
-class IOManager
-{
-  public:
-    IOManager();
-    typedef void (*callback)();
-    void addInputs(int pin[]);
-    void addOutputs(int pin[]);
+class IOManager {
+public:
+	IOManager();
+	void addInputs(int *pin);
+	void addOutputs(int *pin);
 };
 
 #endif
